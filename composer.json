@@ -1,0 +1,18 @@
+{
+    "name": "affinity4/dispatcher",
+    "description": "PSR-15 Middleware Dispatcher",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Affinity4\\MiddlewareStack\\": "src/"
+        }
+    },
+    "require": {
+        "relay/relay": "^2.0",
+        "nyholm/psr7": "^1.1",
+        "affinity4/request-handler-middleware": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    }
+}
