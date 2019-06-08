@@ -10,7 +10,7 @@
     "require": {
         "relay/relay": "^2.0",
         "nyholm/psr7": "^1.1",
-        "affinity4/request-handler-middleware": "^1.0"
+        "affinity4/request-handler-middleware": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.2"
