@@ -1,5 +1,5 @@
 <?php
-namespace Affinity4\MiddlewareStack\Contract;
+namespace Affinity4\Dispatcher\Contract;
 
 use Nyholm\Psr7\Factory\Psr17Factory;
 use Psr\Http\Server\RequestHandlerInterface;

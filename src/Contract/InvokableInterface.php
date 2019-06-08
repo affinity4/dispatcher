@@ -1,5 +1,5 @@
 <?php
-namespace Affinity4\MiddlewareStack\Contract;
+namespace Affinity4\Dispatcher\Contract;
 
 /**
  * InvokableInterface

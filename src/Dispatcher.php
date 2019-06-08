@@ -1,5 +1,5 @@
 <?php
-namespace Affinity4\MiddlewareStack;
+namespace Affinity4\Dispatcher;
 
 use Relay\Relay;
 use Nyholm\Psr7\Factory\Psr17Factory;

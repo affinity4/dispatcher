@@ -1,5 +1,5 @@
 <?php
-namespace Affinity4\MiddlewareStack;
+namespace Affinity4\Dispatcher;
 
 /**
  * MiddlewareResolver
