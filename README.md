@@ -18,7 +18,8 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use Middlewares\ResponseTime;
 use Nyholm\Psr7\Factory\Psr17Factory;
-use Affinity4\MiddlewareStack\Dispatcher;
+use Affinity4\Dispatcher\Dispatcher;
+use Affinity4\Dispatcher\Contract;
 use Affinity4\Middleware\RequestHandler\RequestHandlerMiddleware;
 use Affinity4\Middleware\FastRoute\FastRouteMiddleware;
 
@@ -26,7 +27,6 @@ use Psr\Http\Server\RequestHandlerInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Affinity4\MiddlewareStack\Contract;
 
 $HttpFactory = new Psr17Factory();
 $Request     = $HttpFactory->createServerRequest($_SERVER['REQUEST_METHOD'] ?? 'GET', $_SERVER['REQUEST_URI'] ?? '/');
